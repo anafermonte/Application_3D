@@ -1,0 +1,281 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "green",
+      "default",
+      "black",
+      "cyan",
+      "red",
+      "purple",
+      "blue",
+      "yellow"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://esrimastergis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": " URBAN FURNITURE NUMANCIA 3D APPLICATION DISPLAY ",
+  "subtitle": "<div class=\"attribute-custom-style\"><b><font color=\"#ffffff\"> with Web AppBuilder for ArcGIS </font></b></div>",
+  "keepAppState": false,
+  "logo": "images/logo.png",
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "paddingRight": 0,
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_13",
+        "url": "/webappbuilder/apps/8/themes/FoldableTheme/widgets/HeaderController/",
+        "icon": "themes/FoldableTheme/widgets/HeaderController/images/icon.png",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 51,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Search_Widget_14",
+        "url": "/webappbuilder/apps/8/widgets/Search/",
+        "icon": "widgets/Search/images/icon.png",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "url": "/webappbuilder/apps/8/widgets/ZoomSlider/",
+        "icon": "widgets/ZoomSlider/images/icon.png",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/Home/Widget",
+        "position": {
+          "left": 10,
+          "top": 85,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Home_Widget_16",
+        "url": "/webappbuilder/apps/8/widgets/Home/",
+        "icon": "widgets/Home/images/icon.png",
+        "name": "Home"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 123,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_MyLocation_Widget_17",
+        "url": "/webappbuilder/apps/8/widgets/MyLocation/",
+        "icon": "widgets/MyLocation/images/icon.png",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Navigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 161,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Navigate_Widget_18",
+        "url": "/webappbuilder/apps/8/widgets/Navigate/",
+        "icon": "widgets/Navigate/images/icon.png",
+        "name": "Navigate"
+      },
+      {
+        "uri": "widgets/Compass/Widget",
+        "position": {
+          "right": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Compass_Widget_19",
+        "url": "/webappbuilder/apps/8/widgets/Compass/",
+        "icon": "widgets/Compass/images/icon.png",
+        "name": "Compass"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "position": {
+          "right": 10,
+          "top": 52,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_FullScreen_Widget_20",
+        "url": "/webappbuilder/apps/8/widgets/FullScreen/",
+        "icon": "widgets/FullScreen/images/icon.png",
+        "name": "FullScreen"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 0,
+          "bottom": 16,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Coordinate_Widget_21",
+        "url": "/webappbuilder/apps/8/widgets/Coordinate/",
+        "icon": "widgets/Coordinate/images/icon.png",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.11",
+        "id": "widgets_Splash_Widget_22",
+        "url": "/webappbuilder/apps/8/widgets/Splash/",
+        "icon": "widgets/Splash/images/icon.png",
+        "name": "Splash"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": true,
+    "2D": false,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "bd046df5a3db4028b2b965f2080fd6c2",
+    "mapOptions": {
+      "initialState": {
+        "viewpoint": {
+          "rotation": 67.90521723336826,
+          "scale": 287.42186840251287,
+          "targetGeometry": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "x": -406879.19940147846,
+            "y": 4924133.50723913,
+            "z": 667.2065557837486
+          },
+          "camera": {
+            "position": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -406795.1721373649,
+              "y": 4924099.396635798,
+              "z": 682.6439307332039
+            },
+            "heading": 292.09478276663174,
+            "tilt": 77.4009055822389
+          }
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://esrimastergis.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Daylight/Widget",
+        "version": "2.11",
+        "id": "widgets_Daylight_Widget_11",
+        "name": "Daylight",
+        "url": "/webappbuilder/apps/8/widgets/Daylight/",
+        "index": 2,
+        "icon": "widgets/Daylight/images/icon.png"
+      },
+      {
+        "uri": "widgets/Slides/Widget",
+        "version": "2.11",
+        "id": "widgets_Slides_Widget_12",
+        "name": "Slides",
+        "url": "/webappbuilder/apps/8/widgets/Slides/",
+        "position": {
+          "relativeTo": "map"
+        },
+        "index": 3,
+        "icon": "widgets/Slides/images/icon.png"
+      },
+      {
+        "name": "Legend",
+        "version": "2.11",
+        "uri": "widgets/Legend/Widget",
+        "index": 4,
+        "id": "widgets_Legend_Widget_23",
+        "url": "/webappbuilder/apps/8/widgets/Legend/"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#adbbb3",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 480,
+      "height": 336
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "configWabVersion": "2.11",
+  "logoLink": ""
+}
